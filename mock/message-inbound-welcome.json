@@ -1,0 +1,21 @@
+{
+  "body": {
+    "message_uuid": "ab864968-d216-4ecb-adcb-d7e4b1c0d54f",
+    "to": {
+      "number": "447418342149",
+      "type": "whatsapp"
+    },
+    "from": {
+      "number": "393201166869",
+      "type": "whatsapp"
+    },
+    "timestamp": "2019-10-12T17:25:45.605Z",
+    "direction": "inbound",
+    "message": {
+      "content": {
+        "type": "text",
+        "text": "Hello"
+      }
+    }
+  }
+}
