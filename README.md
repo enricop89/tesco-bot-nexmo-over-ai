@@ -1,5 +1,4 @@
-## Introduction // every sentence has to be the one. Record a Video
-
+## Introduction
 Where is the closest Tesco supermarket? What are the tea brands sold at Tesco? 
 
 If you ever lived in the UK, you would have liked someone to ask the above questions. What if you can do it via WhatsApp?
