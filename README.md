@@ -9,7 +9,7 @@ This blog post will help you integrating **Tesco API** with **Nexmo Messages API
 ## Getting started
 
 
-Before you begin you'll need to install the Serverless Framework
+Before you begin you'll need to install the Serverless Framework.
 
 ### Serverless 
 
@@ -45,9 +45,10 @@ functions:
 To deploy the service on your AWS account, you simply need to create an IAM role with capabilities of creating, updating and delete Lambda and API Gateway services.
 
 1. Configure your AWS Profile: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
-2. Run `serverless deploy --aws-profile {yourAwsProfile}`
+2. Create your local config file. Create a config.json file with your credentials (Nexmo, Tesco and Over AI Credentials). Please check the `config.example.json` file.
+3. Run `serverless deploy --aws-profile {yourAwsProfile}`
 
-Repeat step 2 if you want to update the functions.
+Repeat step 3 if you want to update the functions.
 
 ### Conclusion
 
