@@ -26,10 +26,28 @@ npm update -g serverless
 
 #### Serverless YML
 
+The Yaml file describes the services that will be deployed on your aws account. In this case is a lambda function with his API Gateway associated.
 
+```
+functions:
+  wa-inbound-webhook:
+    handler: functions/wa-inbound-webhook.handler
+    events:
+      - http:
+          path: wa-inbound
+          method: post
+          cors: true
 
+```
+ 
+#### Deploy the service on your AWS account
 
+To deploy the service on your AWS account, you simply need to create an IAM role with capabilities of creating, updating and delete Lambda and API Gateway services.
 
+1. Configure your AWS Profile: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+2. Run `serverless deploy --aws-profile {yourAwsProfile}`
+
+Repeat step 2 if you want to update the functions.
 
 ### Conclusion
 
