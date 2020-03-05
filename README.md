@@ -50,6 +50,14 @@ To deploy the service on your AWS account, you simply need to create an IAM role
 
 Repeat step 3 if you want to update the functions.
 
+### Live Demo
+
+Give it a try 😎
+
+1. Open a WhatsApp Conversation with `+44 7418 342149`
+2. Send the following keyword: `enricop-blog-post`
+3. Send the first message. For example, `Hi Bot`.
+
 ### Conclusion
 
 So what did we learn in this post?
