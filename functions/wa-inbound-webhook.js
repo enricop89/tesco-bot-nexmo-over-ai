@@ -81,8 +81,7 @@ module.exports.handler = async (event) => {
         await sendWhatsappMessage(to, from, toSend);
         break;
       case 'text':
-        console.log("whatsAppKeyword.indexOf(content.text)", whatsAppKeyword.indexOf(content.text))
-        if (whatsAppKeyword.indexOf(content.text) === -1){
+        if (whatsAppKeyword.indexOf(content.text.toLowerCase()) === -1){
           const result = await overAiAgent(`${from.number}-${new Date().getDate()}`, content.text);
           await handleOverAIResponse(to, from, result);
         }
