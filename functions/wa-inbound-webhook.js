@@ -3,6 +3,8 @@ const { convertLonLanToAddress } = require('../utils/maps');
 const { overAiAgent } = require('../utils/overai');
 const { sendWhatsappMessage, buildMediaTemplateMessage } = require('../utils/nexmo');
 
+const whatsAppKeyword = ['enricop-blog-post'];
+
 /**
  * Handle the types fo response from overAI
  * @param {} from from number
@@ -79,8 +81,10 @@ module.exports.handler = async (event) => {
         await sendWhatsappMessage(to, from, toSend);
         break;
       case 'text':
-        const result = await overAiAgent(`${from.number}-${new Date().getDate()}`, content.text);
-        await handleOverAIResponse(to, from, result);
+        if (whatsAppKeyword.indexOf(content.text) !== -1){
+          const result = await overAiAgent(`${from.number}-${new Date().getDate()}`, content.text);
+          await handleOverAIResponse(to, from, result);
+        }
         break;
     }
     return {

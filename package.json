@@ -22,6 +22,10 @@
     "test-wa-inbound-product": "sls invoke local --function wa-inbound-webhook --path mock/message-inbound-product.json",
     "test-wa-inbound-shop": "sls invoke local --function wa-inbound-webhook --path mock/message-inbound-shop.json"
   },
-  "author": "",
+  "author": "Enrico Portolan",
+  "repository": {
+    "type": "github",
+    "repo": "https://github.com/enricop89/tesco-bot-nexmo-over-ai.git"
+  },
   "license": "ISC"
 }

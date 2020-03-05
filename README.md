@@ -55,7 +55,7 @@ Repeat step 3 if you want to update the functions.
 Give it a try 😎
 
 1. Open a WhatsApp Conversation with `+44 7418 342149`
-2. Send the following keyword: `enricop-blog-post`
+2. Send the following keyword: `enricop-blog-post-1`
 3. Send the first message. For example, `Hi Bot`.
 
 ### Conclusion
