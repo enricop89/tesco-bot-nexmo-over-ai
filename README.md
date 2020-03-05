@@ -58,6 +58,14 @@ Give it a try 😎
 2. Send the following keyword: `enricop-blog-post-1`
 3. Send the first message. For example, `Hi Bot`.
 
+
+### Local development
+
+When you are developing, you don't want to push every single code change to AWS.
+
+You can use `serverless invoke local` to test your function locally. Please check `package.json` for example on how to use it.
+
+
 ### Conclusion
 
 So what did we learn in this post?
