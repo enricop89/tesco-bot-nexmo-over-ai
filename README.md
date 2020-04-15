@@ -56,7 +56,7 @@ Give it a try 😎
 
 Scan the following QR Code and send your first message: 
 
-<img src="images/qr-code.png" alt="qr-code" style="width:200px;"/>
+<img src="images/qr-code.png" alt="qr-code" style="height:200px;"/>
 
 Or
 
