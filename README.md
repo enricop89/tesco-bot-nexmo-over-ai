@@ -54,6 +54,12 @@ Repeat step 3 if you want to update the functions.
 
 Give it a try 😎
 
+Scan the following QR Code and send your first message: 
+
+<img src="images/qr-code.png" alt="qr-code" style="width:200px;"/>
+
+Or
+
 1. Open a WhatsApp Conversation with `+44 7418 342149`
 2. Send the following keyword: `enricop-blog-post-1`
 3. Send the first message. For example, `Hi Bot`.
