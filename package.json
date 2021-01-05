@@ -4,7 +4,7 @@
   "description": "Whatsapp bot for Tesco API",
   "main": "handler.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bluebird": "^3.7.0",
     "node-geocoder": "^3.24.0",
     "quagga": "^0.12.1"
