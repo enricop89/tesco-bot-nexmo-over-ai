@@ -10,7 +10,7 @@
     "quagga": "^0.12.1"
   },
   "devDependencies": {
-    "aws-sdk": "^2.543.0",
+    "aws-sdk": "^2.814.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
